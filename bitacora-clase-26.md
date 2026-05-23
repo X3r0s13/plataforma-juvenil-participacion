@@ -10,5 +10,6 @@ Actividades realizadas
 [ ] Modifiqué README.md.
 [ ] Creé index.html.
 [ ] Creé esta bitácora.
+[ ] Hice un git add .
 [ ] Hice commit.
 [ ] Hice push.
