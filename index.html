@@ -1,50 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Plataforma Juvenil de Participación</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Juvenil de Participación</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <header>
     <h1>Plataforma Juvenil de Participación</h1>
+
     <p>
-      Proyecto académico para aprender participación juvenil, transparencia,
-      control ciudadano y trazabilidad mediante herramientas digitales.
+        Este proyecto es una práctica académica para prender sobre participación juvenil, transparencia, control ciudadano y trazabilidad.
     </p>
-  </header>
 
-  <main>
-    <section>
-      <h2>Propósito del proyecto</h2>
-      <p>
-        Esta plataforma se construirá progresivamente como ejercicio pedagógico
-        para comprender cómo la tecnología puede apoyar procesos comunitarios
-        de participación y organización.
-      </p>
-    </section>
-
-    <section>
-      <h2>Advertencia pedagógica</h2>
-      <p>
-        Este proyecto no corresponde a una elección real, no recolecta datos
-        personales reales y no debe utilizarse para hacer acusaciones.
-      </p>
-    </section>
-
-    <section>
-      <h2>Clase 27</h2>
-      <p>
-        En esta clase se mejora la estructura visual del proyecto y se conectan
-        los archivos HTML, CSS y JavaScript.
-      </p>
-
-      <button id="btnMensaje">Ver mensaje de la clase</button>
-      <p id="mensajeClase"></p>
-    </section>
-
+    <h2>Advertencias</h2>
     
+    <p>
+        Este sistema no corresponde a una elección real y no sebe usar datos personales reales.
+    </p>
+
+    <section>
+        <h2>Clase n27</h2>
+        <p>
+            En esta clase se mejora la estructura visual del 
+            proyecto y se conectan los archivos de HTML, 
+            CSS y JavaScript
+        </p>
+        <button id="btnMensaje">Ver mensaje de la clase</button>
+        <p id="mensajeClase"></p>
+    </section>
     <section class="seccion-candidatos">
   <h2>Perfiles de participación</h2>
 
@@ -98,12 +82,33 @@
 
   <div id="detallePerfil" class="detalle-perfil"></div>
 </section>
-  </main>
 
-  <footer>
-    <p>Programadores para la Paz - Módulo 3</p>
-  </footer>
+<section class="formulario-candidato">
+  <h2>Registrar perfil pedagógico</h2>
 
-  <script src="app.js"></script>
+  <p>
+    Registra un perfil ficticio para la práctica académica.
+    No uses nombres reales, cédulas, teléfonos, direcciones ni datos sensibles.
+  </p>
+
+  <input id="nombreCandidato" type="text" placeholder="Nombre ficticio del perfil">
+  <input id="rolCandidato" type="text" placeholder="Rol pedagógico">
+  <textarea id="propuestaCandidato" rows="3" placeholder="Propuesta breve y responsable"></textarea>
+
+  <button id="btnGuardarCandidato" type="button">Guardar perfil</button>
+
+  <p id="mensajeGuardado"></p>
+</section>
+
+<section class="lista-candidatos">
+  <h2>Perfiles guardados</h2>
+  <div id="contenedorCandidatosGuardados"></div>
+</section>
+
+    <footer>
+        <p>&copy; 2026 Plataforma Juvenil de Participación</p>
+        <p>Programadores para la Paz - Módulo 3</p>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
