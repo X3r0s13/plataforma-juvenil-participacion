@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": 1779924831533,
+    "nombre": "Samuel Torres",
+    "rol": "Candidato pedagógico",
+    "propuesta": "Promover información clara, participación juvenil y trazabilidad en procesos comunitarios.",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1779924850620,
+    "nombre": "Valentina Rojas",
+    "rol": "Candidato pedagógico",
+    "propuesta": "Fortalecer el uso responsable de herramientas digitales y la comunicación comunitaria.",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1779924872241,
+    "nombre": "Mateo Vargas",
+    "rol": "Candidato pedagógico",
+    "propuesta": "Impulsar el respeto por los derechos, la privacidad y la participación informada.",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1779924895314,
+    "nombre": "Isabella Méndez",
+    "rol": "Candidato pedagógico",
+    "propuesta": "Promover actividades ambientales, reciclaje y cuidado de espacios públicos.",
+    "estado": "Perfil de práctica académica"
+  }
+]
